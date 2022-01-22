@@ -1,8 +1,8 @@
-num = int(input("Place your number range from 2 to "))+1
+num = int(input("Place your number range from 2 to "))
 
 prime_number_set = [2,3,5,7]
 
-for y in range (2, num):    
+for y in range (2, num + 1):    
     for x in prime_number_set:
         if y % x == 0:
             is_prime = False
